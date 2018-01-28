@@ -1,2 +1,7 @@
+language: generic
 
-language: java
+services:
+- docker
+
+env:
+- COLLECTION_NAME=REGRESSION_Accounts
